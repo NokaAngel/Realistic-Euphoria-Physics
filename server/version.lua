@@ -28,6 +28,8 @@ Citizen.CreateThread(function()
                 print('  ||    ^1Error fetching version data from server.\n^0  ||\n  \\\\\n')
                 return
             end
+            -- Strip 'v' prefix from version for comparison
+            version = version:gsub('^v', '')
             if CurrentVersion ~= version then
                 print(label)
                 print('  ||    \n  ||    Realistic Euphoria Physics is outdated!')
