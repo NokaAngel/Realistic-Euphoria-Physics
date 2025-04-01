@@ -6,7 +6,7 @@ local label =
   ||    +-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+
   ||    |R|e|a|l|i|s|t|i|c| |E|u|p|h|o|r|i|a| |P|h|y|s|i|c|s|
   ||    +-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+  																													
-  ||       		Created by TheRaccoon#0001
+  ||       		Created by NokaAngel (TheRaccoon)
   ||
   ]]  
 Citizen.CreateThread(function()
